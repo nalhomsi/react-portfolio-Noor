@@ -7,100 +7,71 @@ const PhotoList = ({ category }) => {
 
   const [photos] = useState([
     {
-      name: 'Grocery aisle',
-      category: 'commercial',
+      name: '0.jpg',
+      category: 'Photography',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Grocery booth',
-      category: 'commercial',
+      name: '1.jpg',
+      category: 'Photography',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Building exterior',
-      category: 'commercial',
+      name: '2.jpg',
+      category: 'Photography',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Restaurant table',
-      category: 'commercial',
+      name: '3.jpg',
+      category: 'Photography',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Cafe interior',
-      category: 'commercial',
+      name: '0.jpg',
+      category: 'Syria',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Cat green eyes',
-      category: 'portraits',
+      name: '1.jpg',
+      category: 'Syria',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Green parrot',
-      category: 'portraits',
+      name: '2.jpg',
+      category: 'Syria',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Yellow macaw',
-      category: 'portraits',
+      name: '3.jpg',
+      category: 'Syria',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Pug smile',
-      category: 'portraits',
+      name: '4.jpg',
+      category: 'Syria',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Pancakes',
-      category: 'food',
+      name: '0.jpg',
+      category: 'Web Design',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Burrito',
-      category: 'food',
+      name: '1.jpg',
+      category: 'Web Design',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Scallop pasta',
-      category: 'food',
+      name: '2.jpg',
+      category: 'Web Design',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Burger',
-      category: 'food',
+      name: '3.jpg',
+      category: 'Web Design',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
-    {
-      name: 'Fruit bowl',
-      category: 'food',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Green river',
-      category: 'landscape',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Docks',
-      category: 'landscape',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Panoramic village by sea',
-      category: 'landscape',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Domestic landscape',
-      category: 'landscape',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Park bench',
-      category: 'landscape',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
+    
   ]);
 
   const currentPhotos = photos.filter((photo) => photo.category === category);
