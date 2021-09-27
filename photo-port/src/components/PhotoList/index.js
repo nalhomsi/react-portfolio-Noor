@@ -9,67 +9,67 @@ const PhotoList = ({ category }) => {
     {
       name: '0.jpg',
       category: 'Photography',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      
     },
     {
       name: '1.jpg',
       category: 'Photography',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+    
     },
     {
       name: '2.jpg',
       category: 'Photography',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+    
     },
     {
       name: '3.jpg',
       category: 'Photography',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      
     },
     {
       name: '0.jpg',
       category: 'Syria',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      
     },
     {
       name: '1.jpg',
       category: 'Syria',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      
     },
     {
       name: '2.jpg',
       category: 'Syria',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+    
     },
     {
       name: '3.jpg',
       category: 'Syria',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+     
     },
     {
       name: '4.jpg',
       category: 'Syria',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      
     },
     {
       name: '0.jpg',
       category: 'Web Design',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      
     },
     {
       name: '1.jpg',
       category: 'Web Design',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      
     },
     {
       name: '2.jpg',
       category: 'Web Design',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      
     },
     {
       name: '3.jpg',
       category: 'Web Design',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+  
     },
     
   ]);
