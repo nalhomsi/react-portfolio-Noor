@@ -1,5 +1,5 @@
 {
-  "homepage": "https://nalhomsi.github.io/react-portfolio-Noor/",
+  "homepage": "http://nalhomsi.github.io/react-portfolio-Noor/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -34,6 +34,6 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.8.0",
     "@testing-library/react": "^9.5.0",
-    "gh-pages": "^3.0.0"
+    "gh-pages": "^3.2.3"
   }
 }
