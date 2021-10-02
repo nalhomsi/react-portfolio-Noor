@@ -4,12 +4,15 @@ import About from './components/About';
 import Gallery from './components/Gallery';
 import ContactForm from './components/Contact';
 
+
 function App() {
   const [categories] = useState([
   
     { name: 'Photography', description: 'Photos and art' },
     { name: 'Syria', description: 'Syria - people and places' },
     { name: 'Web Design', description: 'Webpage design' },
+    { name: 'Resume', description: 'Resume Download' },
+    
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);

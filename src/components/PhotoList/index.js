@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from '../Modal';
 
-const PhotoList = ({ category }) => {
+const PhotoList = ({ category}) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentPhoto, setCurrentPhoto] = useState();
 
@@ -54,21 +54,37 @@ const PhotoList = ({ category }) => {
     {
       name: '0.jpg',
       category: 'Web Design',
+      description: 'https://stark-eyrie-54944.herokuapp.com">'
+     
       
     },
     {
       name: '1.jpg',
       category: 'Web Design',
+      description: 'https://github.com/nalhomsi/social-studies'
       
     },
     {
       name: '2.jpg',
       category: 'Web Design',
-      
+      description: 'https://piscine-croissant-81316.herokuapp.com'
     },
     {
       name: '3.jpg',
       category: 'Web Design',
+      description: 'https://nalhomsi.github.io/Weather-dashboard'
+  
+    },
+    {
+      name: '4.jpg',
+      category: 'Web Design',
+      description: 'https://young-hollows-30133.herokuapp.com'
+  
+    },
+    {
+      name: '5.jpg',
+      category: 'Web Design',
+      description: 'https://nalhomsi.github.io/workday-scheduler'
   
     },
     
